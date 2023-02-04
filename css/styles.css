@@ -23,26 +23,41 @@ body {
     display: inline-block;
 }
 
-.content-column {
+#content-column {
     display: inline-block;
     width: 48%;
     position: absolute;
     margin: 0 1em;
 }
 
-    .content-column p {
+    #content-column p {
         font-size: 20px;
         margin: 1em 0;
     }
 
-    .content-column ul {
+    #content-column ul {
         margin: 1em;
     }
 
-    #content-column hr{
+    hr {
         margin: 1em 0;
     }
 
-    a {
-        color: #000;
-    }
+a {
+    color: #000;
+    padding:1em 0;
+}
+
+.column {
+    width:50%;
+    display:inline-block;
+}
+
+.catImage{
+    width:100%;
+}
+
+#add-space{
+    position:absolute;
+    right:0;
+}
